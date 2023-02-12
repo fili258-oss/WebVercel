@@ -103,7 +103,7 @@ $(function() {
   });
 
   // progressbars
-  var bar = new ProgressBar.Circle(circleprog1, {
+/*   var bar = new ProgressBar.Circle(circleprog1, {
     strokeWidth: 7,
     easing: 'easeInOut',
     duration: 1400,
@@ -117,9 +117,9 @@ $(function() {
         circle.setText(value);
       }
     }
-  });
+  }); */
 
-  bar.animate(1);
+  /* bar.animate(1);
 
   var bar = new ProgressBar.Circle(circleprog2, {
     strokeWidth: 7,
@@ -135,9 +135,9 @@ $(function() {
         circle.setText(value);
       }
     }
-  });
+  }); */
 
-  bar.animate(0.9);
+/*   bar.animate(0.9);
 
   var bar = new ProgressBar.Circle(circleprog3, {
     strokeWidth: 7,
@@ -153,7 +153,7 @@ $(function() {
         circle.setText(value);
       }
     }
-  });
+  }); */
 
   bar.animate(0.7);
 
